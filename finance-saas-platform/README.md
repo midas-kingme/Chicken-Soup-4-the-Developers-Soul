@@ -65,23 +65,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## 📝 License
 
 Copyright © 2023 [King Midas](https://github.com/kingmidas).<br />
-This project is [MIT](https://github.com/kingmidas/chicken-soup-4-the-developers-soul/blob/main/LICENSE) licensed.      
-
-## Build
-TypeScript
-ESLint
-Tailwind CSS
-not using src directory
-App Router 
-not customizing the default import alias (@/*) ... We're using the default alias of @/components
-Bun for the build tool 
-ShadCN/UI ~> CLI for building a custom component libary ~> for the base color (using Slate) .. Also using CSS variables in app/globals.css
-
-Running dev server with `bun run dev`
-
-
-
-components/ui/ ~> typically contains code from ShadCN/UI after installing a component library..To which we can then modify classes and/or variants
-
-app folder ~> is where our client and server routing is defined. More specifically, the page and layout files
-  ~> page.tsx ~> a reserved file name for Next.js pages which indicates a route (Since Next.js uses file and folder based routing)
+This project is [MIT](https://github.com/kingmidas/chicken-soup-4-the-developers-soul/blob/main/LICENSE) licensed.
